@@ -7,6 +7,10 @@ h1{
   font-style: italic;
 }
 
+#main{
+  background-color: #cdcdcd;
+}
+
 #cpp{
   background-color: #f34b7d;
 }
