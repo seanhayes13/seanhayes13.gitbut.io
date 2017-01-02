@@ -1,0 +1,52 @@
+body{
+  background-color: #cdcdcd;
+    margin-top: 25px;
+}
+
+h1{
+  font-style: italic;
+}
+
+#cpp{
+  background-color: #f34b7d;
+}
+
+#cs{
+  background-color: #178600;
+}
+
+#java{
+  background-color: #b07219;
+}
+
+#python{
+  background-color: #3572A5;
+}
+
+#webdev{
+  border-top: 15px solid #e44b23;
+  border-left: 15px solid #563d7c;
+  border-right: 15px solid #f1e05a;
+  border-bottom: 15px solid #4F5D95;
+  background-color: #888888;
+}
+
+.whiteLinks a:link, a:visited, a:hover, a:active, li{
+  color: #dedede;
+}
+
+.topicBlock{
+  min-height: 175px;
+}
+
+/*@media (min-width: @screen-sm-min) {
+
+}
+
+@media (min-width: @screen-md-min) {
+
+}
+
+@media (min-width: @screen-lg-min) {
+
+}*/
