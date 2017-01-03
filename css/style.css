@@ -7,6 +7,10 @@ h1{
   font-style: italic;
 }
 
+h3{
+  text-align: center;
+}
+
 #main{
   border:15px solid #cdcdcd;
 }
@@ -34,12 +38,12 @@ h1{
   border-bottom: 15px solid #4F5D95;
 }
 
-a:link, a:hover, a:visited, a:active{
+/*a:link, a:hover, a:visited, a:active{
   font-weight: bold;
-}
+}*/
 
 .topicBlock{
-  min-height: 200px;
+  /*min-height: 200px;*/
   font-size: 15px;
 }
 
