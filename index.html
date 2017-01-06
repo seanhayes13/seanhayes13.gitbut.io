@@ -1,64 +1,88 @@
-<html>
-  <head>
-    <title>GitHub Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <div class="container contentContainer well">
-      <h1>Welcome</h1>
-      <p>Welcome to the homepage for my GitHub account. Below are links to the various repositories within my GitHub account and a short list of projects that I have uploaded or will be uploading in the near future. If there is something listed that I have not uploaded, let me know and I will work on getting that uploaded or will send you a copy of the code.</p>
-    </div>
-    <div class="container contentContainer well">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3><a href="https://github.com/seanhayes13/main">Main Repo</a></h3>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>My Github Home</title>
+
+        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+          <div class="container contentContainer">
+              <div>
+                <img src="img/black_keyboard.jpg" alt="home page image" class="indexImg hidden-xs img-responsive"/>
+              </div>
+            <h1>Welcome</h1>
+            <p>Welcome to the homepage for my GitHub account. Below are links to the various repositories within my GitHub account and a short list of projects that I have uploaded or will be uploading in the near future. If there is something listed that I have not uploaded, let me know and I will work on getting that uploaded or will send you a copy of the code.</p>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3><a href="https://github.com/seanhayes13/main">Main Repo</a></h3>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3 id="cpp"><a href="https://github.com/seanhayes13/main/tree/master/cplusplus">C++ Repo</a></h3>
+                <ul>
+                  <li>Address Book</li>
+                  <li>Sort Nodes</li>
+                  <li>Text Based Adventure Game</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3 id="cs"><a href="https://github.com/seanhayes13/main/tree/master/csharp">C# Repo</a></h3>
+                <ul>
+                  <li>Caesar Cipher</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3 id="java"><a href="https://github.com/seanhayes13/main/tree/master/java">Java Repo</a></h3>
+                <ul>
+                  <li>Battleship with AI</li>
+                  <li>Caesar Cipher</li>
+                  <li>File Back Up</li>
+                  <li>Snippet Manager</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3 id="python"><a href="https://github.com/seanhayes13/main/tree/master/python">Python Repo</a></h3>
+                <ul>
+                  <li>Assembly Language Compiler</li>
+                  <li>Caesar Cipher</li>
+                  <li>Double Link List</li>
+                  <li>Maze Game</li>
+                  <li>Snippet Manager</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
+                <h3 id="webdev"><a href="https://github.com/seanhayes13/main/tree/master/webdev">Web Develpoment Repo</a></h3>
+                <ul>
+                  <li>Address Book</li>
+                  <li>Caesar Cipher</li>
+                  <li>Movie Database</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3 id="cpp"><a href="https://github.com/seanhayes13/main/tree/master/cplusplus">C++ Repo</a></h3>
-          <ul>
-            <li>Address Book</li>
-            <li>Sort Nodes</li>
-            <li>Text Based Adventure Game</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3 id="cs"><a href="https://github.com/seanhayes13/main/tree/master/csharp">C# Repo</a></h3>
-          <ul>
-            <li>Caesar Cipher</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3 id="java"><a href="https://github.com/seanhayes13/main/tree/master/java">Java Repo</a></h3>
-          <ul>
-            <li>Battleship with AI</li>
-            <li>Caesar Cipher</li>
-            <li>File Back Up</li>
-            <li>Snippet Manager</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3 id="python"><a href="https://github.com/seanhayes13/main/tree/master/python">Python Repo</a></h3>
-          <ul>
-            <li>Assembly Language Compiler</li>
-            <li>Caesar Cipher</li>
-            <li>Double Link List</li>
-            <li>Maze Game</li>
-            <li>Snippet Manager</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 topicBlock">
-          <h3 id="webdev"><a href="https://github.com/seanhayes13/main/tree/master/webdev">Web Develpoment Repo</a></h3>
-          <ul>
-            <li>Address Book</li>
-            <li>Caesar Cipher</li>
-            <li>Movie Database</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pagedesign.js"></script>
+
+    </body>
 </html>

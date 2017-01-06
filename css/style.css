@@ -1,6 +1,5 @@
 body{
   background-color: #cdcdcd;
-    margin-top: 25px;
 }
 
 h1{
@@ -12,23 +11,23 @@ h3{
 }
 
 #main{
-  border:15px solid #cdcdcd;
+  border-bottom:15px solid #cdcdcd;
 }
 
 #cpp{
-  border:15px solid #f34b7d;
+  border-bottom:15px solid #f34b7d;
 }
 
 #cs{
-  border:15px solid #178600;
+  border-bottom:15px solid #178600;
 }
 
 #java{
-  border:15px solid #b07219;
+  border-bottom:15px solid #b07219;
 }
 
 #python{
-  border:15px solid #3572A5;
+  border-bottom:15px solid #3572A5;
 }
 
 #webdev{
@@ -38,23 +37,7 @@ h3{
   border-bottom: 15px solid #4F5D95;
 }
 
-/*a:link, a:hover, a:visited, a:active{
-  font-weight: bold;
-}*/
-
 .topicBlock{
-  /*min-height: 200px;*/
-  font-size: 15px;
+  background-color: transparent;
+  border-style: none;
 }
-
-/*@media (min-width: @screen-sm-min) {
-
-}
-
-@media (min-width: @screen-md-min) {
-
-}
-
-@media (min-width: @screen-lg-min) {
-
-}*/
